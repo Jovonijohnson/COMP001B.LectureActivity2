@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, "Ubuntu", Arial, Helvetica /* Font family for the webpage */
+}
+
+body {
+    background: radial-gradient(circle, rgb(255,255,255), rgb(217, 162, 110)); /* Bronze and white background */
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: auto;
+} /* Allows overflow */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200vh;
+    margin: 0;
+    padding: 20px;
+} /* Centers boxes */
+
+.Header {
+    font-size: 50px;
+    color: black;
+    background-color: yellow;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    position: absolute;
+    z-index: 10;
+    padding: 0 10px;
+    top: -40px;
+} /* Controls header design and aligns it */
+
+.outer-box {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    padding: 20px;
+    border: 5px solid black;
+    margin-top: 60px;
+    background-color: hsl(180, 100%, 85%);
+    position: relative;
+    text-align: left;
+    font-size: 17px;
+    box-sizing: border-box;
+    overflow: auto;
+    color: blue
+} /* The design elements for the outer box */
+
+.inner-box {
+    width: calc(100% - 40px);
+    max-width: 400px;
+    height: auto;
+    padding: 10px;
+    border: 5px solid gray;
+    background-color: rgb(180, 100%, 40%);
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    color: darkred;
+} /* The design elements for the inner box /*
